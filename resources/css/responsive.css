@@ -1,0 +1,227 @@
+/* MAX WIDTH 1200PX */
+
+@media only screen and (min-width: 1200px){
+    #testimonial .comment-area blockquote p {
+        font-size: 40px;
+        padding: 15px 20px 0;
+        line-height: 45px;
+    }
+    blockquote {
+        width: 600px;
+    }
+    #testimonial blockquote {
+        padding: 5% 0;
+    }
+}
+@media only screen and (max-width: 1199.98px){
+    .social-icon li a {
+        width: 38px;
+        height: 38px;
+    }
+    #testimonial .comment-area blockquote p {
+        font-size: 37px;
+        padding: 15px 20px 0;
+        line-height: 36px;
+    }
+    blockquote {
+        width: auto;
+    }
+}
+/* MAX WIDTH 992PX */
+    @media only screen and (max-width: 991.98px){
+    #header {
+        height: 604px;
+    }
+    #header .header-content h1 {
+        font-size: 45px;
+    }
+    #header .header-content p {
+        padding: 0 105px 20px;
+    }
+
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-left: 0;
+    }
+    #features .col-md-6 {
+        margin-top: 48px;
+    }
+    #team .container .row,
+    #team h4,
+    #team span {
+        text-align: center;
+    }
+    #team .col-md-6:nth-child(3),
+    #team .col-md-6:nth-child(4){
+        margin-top: 50px;
+    }
+    #testimonial .comment-area blockquote p {
+        font-size: 30px;
+        padding: 23px 20px 0;
+        line-height: 36px;
+    }
+    #testimonial .comment-area blockquote cite {
+        font-size: 14px;
+    }
+    #testimonial .comment-area blockquote p {
+        padding: 0 20px 0;
+    }
+    #testimonial blockquote {
+        padding: 5% 0;
+    }
+    footer .social-icon li a {
+        width: 40px;
+        height: 40px;
+    }
+}
+    @media only screen and (max-width: 767.98px){
+    /* START MOBILE MENU */
+    #header ul {
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        display: inline-block;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        margin: 0 auto;
+        float: none;
+        background: #313454;
+        padding-top: 50px;
+        transition: all 0.3s;
+    }
+    #header ul li {
+        padding-top: 7px;
+    }
+    #header ul li a {
+        width: 100%;
+        padding: 16px 0;
+        color: #fff !important;
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        letter-spacing: 1px;
+    }
+    #header nav ul li a.active-first,
+    #header ul li a:hover {
+        background: #e35858;
+    }
+    #header nav.sticky-nav-bg div.container {
+        height: 65px;
+        border: none;
+    }
+    #header nav.sticky-nav-bg {
+        width: 100%;
+        background:#313454;
+    }
+
+    #header .hum-show {
+        display: block !important;
+    }
+    #header .open_nav {
+        left: 0%;
+    }
+    #header .close_nav {
+        display: none;
+    }
+    /* END MOBILE MENU */
+    #header {
+        height: 100%;
+        padding-bottom: 135px;
+    }
+    #header .header-content h1 {
+        font-size: 37px;
+        padding: 80px 0 0;
+    }
+    #header .header-content p {
+        padding: 0 0 20px;
+    }
+
+    #team .col-sm-12:nth-child(2){
+        margin-top: 50px;
+    }
+    #team img {
+        width: 70%;
+    }
+    .flex-control-nav {
+        display: block;
+    }
+    
+    footer .col-md-4 p{
+        margin: 0 0 0;
+    }
+    footer .social-icon {
+        margin-top: 20px;
+    }
+    footer .col-md-4:last-child,
+    footer .col-md-4:nth-child(2) {
+        margin-top: 40px;
+    }
+    footer .copyright-area p {
+        padding: 10px 0;
+        margin: 0;
+    }
+    #download .down-content h3 {
+        font-size: 22px;
+    }
+    #download .down-content p {
+        font-size: 15px;
+    }
+}
+    @media only screen and (max-width: 576px){
+    #header .header-content h1 {
+        font-size: 27px;
+    }
+    #header .header-content p {
+        font-size: 14px;
+    }
+    .navbar-brand {
+        margin-left: 12px;
+    }
+    #header #hamburger_menu {
+        margin-right: 26px;
+    }
+    #header nav {
+        background:#313454;
+    }
+    #header nav div.container {
+        height: 65px;
+        border: none;
+    }
+    #header nav.fixed-top {
+        position: absolute;
+    }
+    #hamburger_menu  {
+        margin-top: 7px;
+    }
+    .btn-hero:link,
+    .btn-hero:visited,
+    .btn-hero {
+        padding: 10px 40px;
+    }
+    #team img {
+        width: 70%;
+        height: auto;
+    }
+    #team p {
+        width: 80%;
+        margin: 0 auto 16px;
+    }
+
+
+    footer .col-md-4 p {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    #header nav img {
+        width: 150px;
+    }
+    .btn-hero:link, .btn-hero:visited, .btn-hero {
+        padding: 11px 23px;
+    }
+    #testimonial .comment-area blockquote p {
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
